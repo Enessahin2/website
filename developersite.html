@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammet Enes Şahin - Yazılım Mühendisliği Öğrencisi</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #e3f2fd; /* Açık mavi arka plan */
+            color: #0d47a1; /* Koyu mavi metin rengi */
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #1976d2; /* Orta mavi başlık */
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        section {
+            margin: 20px;
+            padding: 20px;
+        }
+        h1, h2 {
+            color: #0d47a1; /* Koyu mavi başlık rengi */
+        }
+        .bio {
+            background-color: #bbdefb; /* Açık mavi kutu */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .bio h2 {
+            color: #1976d2; /* Başlık için daha koyu mavi */
+        }
+        .skills {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+        .skill {
+            background-color: #bbdefb; /* Açık mavi kutu */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .contact-form {
+            background-color: #bbdefb; /* Açık mavi kutu */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .contact-form a {
+            background-color: #1976d2; /* Orta mavi buton */
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+        .contact-form a:hover {
+            background-color: #1565c0; /* Koyu mavi buton hover */
+        }
+        footer {
+            background-color: #0d47a1; /* Koyu mavi footer */
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        .footer-links a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+
+        /* Fotoğraf için stil */
+        .photo-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .photo-container img {
+            width: 100%;
+            max-width: 1000px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Muhammet Enes Şahin</h1>
+    <p>Yazılım Mühendisliği 2. Sınıf Öğrencisi | Okul Numarası: 030722041</p>
+</header>
+
+<!-- Manzara Fotoğrafı Ekleniyor -->
+<section class="photo-container">
+    <img src="https://repository-images.githubusercontent.com/430449684/8370b994-855a-4f34-99cf-1a1a04394c3b" alt="Manzara Fotoğrafı">
+</section>
+
+<section>
+    <div class="bio">
+        <h2>Hakkımda</h2>
+        <p>Ben, Yazılım Mühendisliği 2. sınıf öğrencisiyim ve hazırlık sınıfı tamamladım. İngilizceyi B2 seviyesinde biliyorum. Kaggle üzerinden Python sertifikası aldım ve yazılım geliştirme alanında kendimi geliştirmeye devam ediyorum. Şu an, C ve C++ dillerinde deneyimim bulunmakta ve MySQL öğreniyorum. Kısa vadede Java, HTML, CSS gibi teknolojilerde de kendimi geliştirmeyi hedefliyorum. Gelecekte Full Stack Developer olmayı amaçlıyorum.</p>
+    </div>
+</section>
+
+<section>
+    <h2>Yeteneklerim ve Öğrenme Hedeflerim</h2>
+    <div class="skills">
+        <div class="skill">
+            <h3>C++ ve Algoritmalar</h3>
+            <p>C++ dilinde algoritmalar, sıralama (sorting), bağlı listeler (linked lists) ve yığınlar (stacks) üzerinde derinlemesine çalışmalar yaptım.</p>
+        </div>
+        <div class="skill">
+            <h3>Python ve Veri Bilimi</h3>
+            <p>Python dilinde Kaggle sertifikası aldım ve veri bilimi projeleri üzerine çalışmaya başladım.</p>
+        </div>
+        <div class="skill">
+            <h3>Web Geliştirme</h3>
+            <p>HTML, CSS, Java ve JavaScript öğrenmeyi hedefliyorum. Full Stack Developer olarak web geliştirme alanında kariyer yapmayı planlıyorum.</p>
+        </div>
+        <div class="skill">
+            <h3>MySQL</h3>
+            <p>Şu anda MySQL öğreniyorum ve veritabanı yönetim sistemlerinde yetkinlik kazanmaya çalışıyorum.</p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="contact-form">
+        <h2>Benimle İletişime Geçin</h2>
+        <p>Aşağıdaki butona tıklayarak bana tecrübelerinizi ve değerli tavsiyelerinizi iletebilirsiniz.</p>
+        <a href="mailto:enessahin25545425@gmail.com?subject=İletişim&body=Merhaba,%0A%0A">Bana E-posta Gönder</a>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 Muhammet Enes Şahin</p>
+    <div class="footer-links">
+        <a href="https://www.linkedin.com/in/muhammet-enes-shahin" target="_blank">LinkedIn</a>
+        <a href="https://github.com/muhammet-enes-shahin" target="_blank">GitHub</a>
+    </div>
+</footer>
+
+</body>
+</html>
